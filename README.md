@@ -35,9 +35,21 @@ parameters (if any).
 Order of path matching is not reliably ensured so avoid conflicting paths.
 
 
-Browser Compatibility:
-
-	(all latest versions)
+Browser Compatibility (all latest versions):
 	IE Edge, Chrome, Firefox, Safari, Chrome for Android, iOS Safari.
-	
 
+## TODO
+
+Development:
+- Run performance tests and optimize if needed
+- History API (HTML5) support
+- Improved path handlers
+- Support transitioning controllers
+
+Build:
+- ES5 version
+- CommonJS module
+- Typescript port
+
+...more to be added!
+	
