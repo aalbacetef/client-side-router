@@ -1,7 +1,5 @@
 # client-side-router
 
-**Author:** Arturo Albacete
-
 A basic hashbang-based client-side router.
 Implements very basic functionality of mapping hashbang URL to handlers.
 
