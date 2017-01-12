@@ -4,8 +4,10 @@
 
 A basic hashbang-based client-side router.
 Implements very basic functionality of mapping hashbang URL to handlers.
+
 Its input is a paths object which maps:
   url => handler
+
 URL parameters are prefixed with ':' such as /section/:section_id
 
 ## Usage:
