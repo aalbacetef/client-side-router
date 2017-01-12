@@ -3,32 +3,27 @@
 **Author:** Arturo Albacete
 
 A basic hashbang-based client-side router.
-
 Implements very basic functionality of mapping hashbang URL to handlers.
-
 Its input is a paths object which maps:
   url => handler
-
 URL parameters are prefixed with ':' such as /section/:section_id
-
-
 
 ## Usage:
 
 You need to pass in a paths object and then initialize the router with the init() method.
 ```javascript
-  let router = Router({
-    '/' : () => {
-      controller_1.init();
-    },
-    '/sections/': () => {
-      controller_1.init();
-    },
-    '/sections/:section_id': (section_id) => {
-      controller_1.init(section_id);
-    }
-  });
-  router.init();
+let router = Router({
+'/' : () => {
+controller_1.init();
+},
+'/sections/': () => {
+controller_1.init();
+},
+'/sections/:section_id': (section_id) => {
+controller_1.init(section_id);
+}
+});
+router.init();
 ```
 
 ## Operation:
