@@ -16,7 +16,7 @@ URL parameters are prefixed with ':' such as /section/:section_id
 ## Usage:
 
 You need to pass in a paths object and then initialize the router with the init() method.
-
+```javascript
   let router = Router({
     '/' : () => {
       controller_1.init();
@@ -29,7 +29,7 @@ You need to pass in a paths object and then initialize the router with the init(
     }
   });
   router.init();
-
+```
 
 ## Operation:
 Will parse the paths into regexes and then create one large regex.
