@@ -41,10 +41,12 @@ Browser Compatibility (all latest versions):
 ## TODO
 
 Development:
+- Run thorough tests
 - Run performance tests and optimize if needed
-- History API (HTML5) support
 - Improved path handlers
 - Support transitioning controllers
+- Hashbang
+- History API (HTML5) support
 
 Build:
 - ES5 version
