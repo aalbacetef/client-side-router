@@ -13,15 +13,15 @@ URL parameters are prefixed with ':' such as /section/:section_id
 You need to pass in a paths object and then initialize the router with the init() method.
 ```javascript
 let router = Router({
-'/' : () => {
-controller_1.init();
-},
-'/sections/': () => {
-controller_1.init();
-},
-'/sections/:section_id': (section_id) => {
-controller_1.init(section_id);
-}
+	'/' : () => {
+		controller_1.init();
+	},
+	'/sections/': () => {
+		controller_1.init();
+	},
+	'/sections/:section_id': (section_id) => {
+		controller_1.init(section_id);
+	}
 });
 router.init();
 ```
@@ -36,5 +36,8 @@ Order of path matching is not reliably ensured so avoid conflicting paths.
 
 
 Browser Compatibility:
+
 	(all latest versions)
 	IE Edge, Chrome, Firefox, Safari, Chrome for Android, iOS Safari.
+	
+
