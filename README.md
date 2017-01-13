@@ -1,7 +1,7 @@
 # client-side-router
 
 A basic hash-based client-side router.
-Implements very basic functionality of mapping hashbang URL to handlers.
+Implements very basic functionality of mapping hash URL to handlers.
 
 Its input is a paths object which maps:
   url => handler
