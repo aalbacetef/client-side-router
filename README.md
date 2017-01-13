@@ -6,7 +6,7 @@ Implements very basic functionality of mapping hash URL to handlers.
 Its input is a paths object which maps:
   url => handler
 
-URL parameters are prefixed with ':' such as /section/:section_id
+URL parameters are prefixed w ith ':' such as /section/:section_id
 
 ## Usage:
 
@@ -44,8 +44,10 @@ Development:
 - Run thorough tests
 - Run performance tests and optimize if needed
 - Improved path handlers
-- Support transitioning controllers
-- Hashbang
+- Support user-provided transitions
+- Hashbang URLs
+- Variadic routes
+- Support querystring
 - History API (HTML5) support
 
 Build:
